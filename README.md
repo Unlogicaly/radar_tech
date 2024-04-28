@@ -3,7 +3,7 @@
 
 ## Инструкция по запуску программы
 
-- В папке проекта собрать решение командой 
+- Из папки src собрать решение командой 
 ```cmd
 g++ -o <название исполняемого файла> main.cpp DataParserQuick.h GeneticAlgorithm.h GeneticAlgorithm.cpp Individuals.h Population.h Population.cpp -O3 -fopenmp
 ```
