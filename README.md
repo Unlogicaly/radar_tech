@@ -12,3 +12,4 @@ g++ -o <название исполняемого файла> main.cpp DataParse
 ```cmd
 <название исполняемого файла> <путь к входному файлу> <путь к выходному файлу>
 ```
+![image](https://github.com/Unlogicaly/radar_tech/assets/47181611/b8aaaf6d-54ba-4250-865f-87f2a356723a)
