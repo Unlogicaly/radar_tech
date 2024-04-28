@@ -1,0 +1,30 @@
+{
+  "no_change_stop": 15,
+  "population_size": 40,
+  "keep_best": 5,
+  "selection_config": {
+    "method": "tournament",
+    "softmax": 1,
+    "temperature": 2
+  },
+  "parent_selection_config": {
+    "method": "outbreeding",
+    "skip_parent_probability": 0.2
+  },
+  "truncation_config": {
+    "method": "greedy",
+    "softmax": 1,
+    "temperature": 2.25,
+    "alpha": 0.5
+  },
+  "expansion_config": {
+    "method": "greedy",
+    "softmax": 1,
+    "temperature": 2.25,
+    "alpha": 0.5
+  },
+  "mutation_config": {
+    "mutation_probability": 0.5,
+    "mutation_strength": 0.1
+  }
+}
